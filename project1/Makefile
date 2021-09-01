@@ -6,7 +6,7 @@ test:
 	python -m pytest --vv test_main.py
 
 format:
-	black *.py
+	black ../*.py
 
 run:
 	python ../project1.py
