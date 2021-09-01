@@ -18,7 +18,7 @@ async def add(num1: int, num2: int):
     return {"total is": total}
 
 @app.get("/multiply/{num1}/{num2}")
-async def add(num1: int, num2: int):
+async def multiply(num1: int, num2: int):
     """add two numbers together"""
     
     total = num1 * num2
