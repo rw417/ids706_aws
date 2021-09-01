@@ -1,0 +1,7 @@
+fastapi==0.68.1
+pylint==2.10.2
+uvicorn==0.15.0
+pytest
+click
+black
+pytest-cov
