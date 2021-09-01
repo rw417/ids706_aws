@@ -1,8 +1,6 @@
 fastapi
-typing
 pylint
 uvicorn
 pytest
 click
 black
-pytest-cov
