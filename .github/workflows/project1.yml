@@ -25,15 +25,13 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-
-      # Runs a single command using the runners shell
-      - name: Set up Python
-        run: actions/setup-python@v1
+      - uses: actions/setup-python@v1
 
       # Runs a set of commands using the runners shell
       - name: Install dependencies and lint code with Pylint
         run: |
           project1/make install
           project1/make lint
+      # Runs a single command using the runners shell
       - name: format code with black
         run: project1/make format
