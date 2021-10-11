@@ -10,4 +10,4 @@ The training corpuses used are Hamlet, MacBeth, and Julius Caesar. The program i
 
 To use the microservice, visit [this link](https://ujrgewf3fm.us-east-2.awsapprunner.com/).
 
-Documentation of the API can be found at [this link](https://ujrgewf3fm.us-east-2.awsapprunner.com/docs).
+A demo of this microservice is [here](https://youtu.be/nveZ3X7bdJc). Documentation of the API can be found at [this link](https://ujrgewf3fm.us-east-2.awsapprunner.com/docs).
