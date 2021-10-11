@@ -1,0 +1,6 @@
+request
+boto3
+botocore
+pandas
+wikipedia
+python_json_logger
