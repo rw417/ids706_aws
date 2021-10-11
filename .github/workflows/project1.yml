@@ -31,7 +31,7 @@ jobs:
       - name: Install dependencies and lint code with Pylint
         run: |
           make -C project1 install
-          make -C project1 lint
+          # make -C project1 lint
       # Runs a single command using the runners shell
       - name: format code with black
         run: make -C project1 format
