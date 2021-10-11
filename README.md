@@ -1,7 +1,7 @@
 # ids706_aws
-This is a repo for using AWS for ids706
+This is a repo for using AWS for the course IDS706 - Data Engineering
 
-# Project 1 - FastAPI Microservice Hosted on AWS App Runner
+# Project 1 - FastAPI Microservice Random Text Generator
 [![Python CI to AWS](https://github.com/rw417/ids706_aws/actions/workflows/project1.yml/badge.svg)](https://github.com/rw417/ids706_aws/actions/workflows/project1.yml)  
 This is a straighforward microservice created using FastAPI and hosted on AWS App Runner.  
 It supports 3 use cases:
