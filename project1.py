@@ -84,7 +84,7 @@ app = FastAPI()
 async def root():
     """"""
     return {"Welcome!":
-            """This is a Shakespear-style random text generator.\\nPlease enter the number of sentences you'd like to generate as integers."""}
+            """This is a Shakespear-style random text generator. Please enter the number of sentences you'd like to generate as integers."""}
 
 
 @app.get("/{n}")
@@ -95,7 +95,7 @@ async def genSentences(n: int):
         currentSentence = generator_2.make_sentence()
         while currentSentence is None:
             currentSentence = generator_2.make_sentence()
-        newStr = "\\n".join((s, currentSentence))
+        newStr = " ".join((s, currentSentence))
         s = newStr
 
     return {"Please enjoy your Shakespearisc novella": s}
