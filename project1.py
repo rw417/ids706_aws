@@ -83,9 +83,10 @@ app = FastAPI()
 @app.get("/")
 async def root():
     """"""
-    return {
-        """This is a Shakespear-style random text generator.\nPlease enter the number of sentences you'd like to generate as integers."""
-    }
+    return {"Welcome!":
+            """This is a Shakespear-style random text generator.
+            Please enter the number of sentences you'd like to generate as integers."""
+           }
 
 
 @app.get("/{n}")
